@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <SearchScreen/> should show the error if doesnt find the hero 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="hero"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman123123123"
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+         Results 
+      </h4>
+      <hr />
+      <div
+        className="alert alert-danger"
+      >
+        There isn't a hero with 
+        batman123123123
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing <SearchScreen/> should show the snapshot with correct values 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="hero"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+         Results 
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        Search a hero
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing <SearchScreen/> should show to batman and input with queryString 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="hero"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+         Results 
+      </h4>
+      <hr />
+      <div
+        className="card ms-3"
+        style={
+          Object {
+            "maxWidth": 540,
+          }
+        }
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="col-md-4"
+          >
+            <img
+              alt="Batman"
+              className="card-img animate__animated animate__fadeInLeft"
+              src="./assets/heroes/dc-batman.jpg"
+            />
+          </div>
+          <div
+            className="col-md-8"
+          >
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                Batman
+              </h5>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                  Detective Comics #27
+                </small>
+              </p>
+              <a
+                href="/hero/dc-batman"
+                onClick={[Function]}
+              >
+                Más...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
